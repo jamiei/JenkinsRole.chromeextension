@@ -1,0 +1,17 @@
+{
+  "name": "Jenkins Big Mess O'Roles Helper",
+  "description": "Makes the big mess of roles table in the jenkins roles plugin slightly easier to navigate",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": { "128": "Crystal_128_kcontrol.png" },
+  "permissions": [
+    "tabs", "http://*/role-strategy/assign-roles"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/role-strategy/assign-roles"],
+      "js": ["jenkins_roles.js"],
+      "css": ["jenkins_roles.css"]
+    }
+  ]
+}
