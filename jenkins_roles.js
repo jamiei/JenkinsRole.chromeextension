@@ -1,5 +1,9 @@
 
-// Tooltip code conveniently borrewed from http://sixrevisions.com/tutorials/javascript_tutorial/create_lightweight_javascript_tooltip/
+// Copyright (c) 2012, Jamie I
+// All rights reserved.
+// Licensed under the BSD-3 license.
+
+// Tooltip code conveniently borrowed from http://sixrevisions.com/tutorials/javascript_tutorial/create_lightweight_javascript_tooltip/
 var tooltip=function(){
  var id = 'tt';
  var top = 3;
