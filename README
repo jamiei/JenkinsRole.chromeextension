@@ -1,9 +1,13 @@
-h1. Jenkins Big Mess'O'Roles extension
-The Jenkins Big Mess'o'roles extension is a Google Chrome plugin for the Jenkins Roles Strategy Plugin (https://wiki.jenkins-ci.org/display/JENKINS/Role+Strategy+Plugin). It adds a hover tooltip which helps identify users and roles in a large table of users and roles.
+Jenkins Big Mess'O'Roles extension
+==================================
+The Jenkins Big Mess'o'roles extension is a Google Chrome plugin for the [Jenkins Roles Strategy Plugin] (https://wiki.jenkins-ci.org/display/JENKINS/Role+Strategy+Plugin). It adds a hover tooltip which helps identify users and roles in a large table of users and roles.
 
-http://jamiei.com/blog/code/chrome-extensions/
+[http://jamiei.com/blog/code/chrome-extensions/](http://jamiei.com/blog/code/chrome-extensions/)
 
-h1. Licensed BSD-3
+Licence
+-------
+
+Licensed under the BSD-3 open source license.
 
 Copyright (c) 2012, Jamie I
 All rights reserved.
