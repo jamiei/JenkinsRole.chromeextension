@@ -84,7 +84,7 @@ var tooltip=function(){
 function onMouseOverRole(e)
 {
 	if (e.target.nodeName == 'TD') {
-		tooltip.show('Name: ' + getGetUserGroupName(e) + '<br />Role: ' + getGetRoleName(e) + '<br />Enabled: ' + getEnabledTextBoxesForTR(e), 200);
+		tooltip.show('Name: ' + getGetUserGroupName(e) + '<br />Role Hovered: ' + getGetRoleName(e) + '<br />Enabled: ' + getEnabledTextBoxesForTR(e), 200);
 
 	}
 
